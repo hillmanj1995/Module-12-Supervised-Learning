@@ -12,7 +12,7 @@ The analyst created (2) separate models to evaluate the creditworthiness of borr
 
 * Machine Learning Model 1: Logistic Regression of Orginal Data
 
-    ![OG_Regression.PNG]()
+    ![OG_Regression.png](https://github.com/hillmanj1995/Module-12-Supervised-Learning/blob/main/Challenge/Images/OG_Regression.png)
 
   * The first model was a logistic regression of the original dataset.  The classification report that was generated (above) shows the following results:
     1. Balanced Accuracy Score: 94.43%
@@ -23,7 +23,7 @@ The analyst created (2) separate models to evaluate the creditworthiness of borr
 
 * Machine Learning Model 2:  Logistic Regression of Resampled Data using RandomOverSampler 
 
-    ![Resampled_Regression.PNG]()
+    ![Resampled_Regression.png](https://github.com/hillmanj1995/Module-12-Supervised-Learning/blob/main/Challenge/Images/Resampled_Regression.png)
 
   * The first model was a logistic regression of the resampled dataset using RandomOverSampler.  RandomOverSampler randomly selects instances of the minority class and adds them to the training set until we’ve balanced the majority and minority classes.  The classification report for the regression (above) shows the following results:
     1. Balanced Accuracy Score: 99.39%
